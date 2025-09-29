@@ -1,3 +1,2 @@
 Hare Krishana
-<br>
-#Bageshwar dham ki jai
+Bageshwar dham ki jai
