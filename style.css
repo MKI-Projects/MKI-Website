@@ -40,6 +40,20 @@ html, body {
 .nav h4{
     font-size: 1vw;
 }
+.nav button{
+    font-size: 1.3vw;
+    padding: 1.3vw 2.3vw;
+    background-color:lightgreen;
+    color: cornsilk;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.nav i{
+    font-weight: 800;
+    display: none;
+}
+
 .content{
     height: calc(100% - 100px);
     width: 100%;
@@ -49,35 +63,39 @@ html, body {
 
 .left{
     height: 100%;
-    width: 55%;
+    width: 70%;
     padding: 5vw 4vw;
 }
 
 .left h1{
-    font-size: 4.5vw;
+    font-size: 4.4vw;
     line-height: 4.4vw;
 }
 
 .left h1 span{
-    color: lightgreen;
+    color:lightgreen;
 }
 .left p{
-    font-size: 1vw;
+    font-size: 1.2vw;
     font-weight: 600;
     cursor: #666;
-    width: 80%;
+    width: 94%;
     margin-top: 2vw;
     margin-bottom: 3vw;
 }
-button{
+.content button{
     font-size: 1.5vw;
     padding: 1.3vw 2.3vw;
-    background-color: lightgreen;
-    color: #fff;
+    background-color:lightgreen;
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     font-weight: 700;
 
+}
+.content button a{
+    color: #ffffff;
+    text-decoration: none;
 }
 
 
@@ -91,7 +109,11 @@ button{
 }
 
 
-
+.nav i{
+    font-size: 1.5vw;
+    font-weight: 800;
+    display: none;
+}
 
 
 
@@ -106,6 +128,14 @@ button{
     }
     .nav h4{
         font-size: 4.5vw;
+        display: none;
+    }
+    .nav button{
+        display: none;
+    }
+    .nav i{
+        display: block;
+        font-size: 5vw;
     }
     .content{
         height: calc(100% - 60px);
